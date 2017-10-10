@@ -1,0 +1,32 @@
+body{
+	background: url(../../static/img/counterCenter/body_bg.jpg);
+}
+
+@media (min-width: 1200px) {
+	.container{
+		width: 1200px !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container {
+	    width: 992px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+	    width: 768px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+	    width: 100% !important;
+	    padding: 0 10px !important;
+	}
+}
+
+
+
+

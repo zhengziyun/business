@@ -1,0 +1,92 @@
+.waitedList{
+	display: block;
+	width: 100%;
+	text-decoration: none !important;
+	color: #333;
+	border: 1px solid #D5D5D5;
+	margin-top:18px;
+	cursor: pointer;
+}
+.waitedList:hover{
+	color: #333;
+}
+.waitedListNum{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px !important;
+	color: #333 !important; 
+	background: #d9edf7;
+    padding-left: 10px;
+}
+.waitedListInfo{
+	position: relative;
+	width: 100%;
+	padding: 14px 10px;
+}
+.orderTime{
+	width: 100%;
+	line-height: 14px;
+	font-size: 12px;
+}
+.goodsInfo{
+	width: 100%;
+	height: 80px;
+	margin-top: 14px;
+}
+.goodsInfo .pic>img{
+	width: 100%;
+	height: 100%;
+}
+.goodsInfo .pic{
+	float: left;
+	width: 96px;
+	height: 80px;
+	margin-right: 20px;
+}
+.goodsInfo .info{
+	float: left;
+	height: 80px;
+}
+.goodsInfo .info>h3{
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 4px 0;
+}
+.goodsInfo .info>p{
+	font-size: 14px;
+	line-height: 22px;
+	color: #999;
+	margin: 0;
+}
+.restTime{
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	font-size: 14px !important;
+}
+.grabOrderBtn{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	padding: 4px 20px !important;
+}
+
+
+@media (max-width: 767px) {
+	.goodsInfo .pic{
+		margin-right: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

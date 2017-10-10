@@ -1,0 +1,45 @@
+.commonHeader{
+	width: 100%;
+	height: 40px;
+}
+.commonHeader .navbar-inner{
+	background: #2c2c2c;
+}
+.commonHeader .navbarMinHgt{
+	min-height: 40px;
+}
+.commonHeader .brand:hover{
+	text-decoration: none;
+}
+.commonHeader .brand{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.commonHeader .signOut{
+	float: right;
+	line-height: 40px;
+	color: #999;
+	cursor: pointer;
+}
+.commonHeader .signOut:hover{
+	color: #fff;
+}
+.commonHeader .signOut i{
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+

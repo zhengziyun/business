@@ -1,0 +1,26 @@
+.starEval{
+  float: left;
+  height: 16px;
+  margin-top: 2px;
+}
+.starEval span{
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+.starEval span img{
+	display: block;
+}
+.starEval .pointer{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

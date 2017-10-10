@@ -1,0 +1,160 @@
+.counterCenter{
+	width: 100%;
+}
+.tesksBox{
+	width: 100%;
+	margin: 26px auto;
+}
+.tesks{
+	width: 100%;
+	text-align: center;
+	padding: 24px 0;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	border-top: none;
+}
+.tesks>a{
+	position: relative;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #bbb;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0 80px;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.tesks>a .hasNewList{
+	position: absolute;
+	right: 22px;
+	top: 12px;
+	width: 12px;
+	height: 12px;
+	background: #ff0017;
+	border-radius: 50%;
+}
+.tesks>a>span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 32px;
+	font-size: 32px;
+	font-weight: 600;
+	color: #fff;
+	margin: 16px 0 6px 0;
+}
+.tesks>a>p{
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	color: #fff;
+}
+
+.ordersBtm{
+	width: 100%;
+	background: #fff;
+	border: 1px solid #D5D5D5;
+	border-top: none;
+	padding: 40px 15px;
+}
+.ordersBtm>a{
+	float: left;
+	width: 21%;
+	height: 82px;
+	text-align: center;
+	text-decoration: none !important;
+	line-height: 82px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	margin: 0 2%;
+	cursor: pointer;
+}
+
+
+@media  (min-width: 992px) and (max-width: 1199px) {
+  .tesks>a{
+  	margin: 0 60px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tesks>a{
+  	margin: 0 20px;
+  }
+  .ordersBtm>a{
+  	line-height: 20px;
+  	font-size: 14px;
+  	padding: 24px 10px 0 10px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .tesksBox{
+  	margin: 0.26rem auto;
+  }
+  .tesks>a{
+  	width: 1.6rem;
+  	height: 1.6rem;
+  	padding: 0.1rem;
+  	margin: 0 0.22rem;
+  }
+  .tesks>a>span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 0.32rem;
+    font-size: 0.48rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0.4rem 0 0.14rem 0;
+  }
+  .tesks>a>p {
+    text-align: center;
+    font-size: 0.16rem;
+    font-style: italic;
+    color: #fff;
+	}
+	.tesks>a .hasNewList {
+    position: absolute;
+    right: 0.32rem;
+    top: 0.16rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: #ff0017;
+    border-radius: 50%;
+	}
+	.tesks{
+		padding: 0.24rem 0;
+	}
+	.ordersBtm{
+		padding: 0.4rem 0.15rem;
+	}
+	.ordersBtm>a {
+	    float: left;
+	    width: 48%;
+	    height: 1rem;
+	    text-align: center;
+	    text-decoration: none !important;
+	    line-height: 1rem;
+	    font-size: 0.28rem;
+	    border: 1px solid #ddd;
+	    border-radius: 0.12rem;
+	    margin: 0 1%;
+	    cursor: pointer;
+	}
+	.ordersBtm>a.marginBtm{
+		margin-bottom: 0.2rem;
+	}
+}
+
+
+
+
+
+
+
+
