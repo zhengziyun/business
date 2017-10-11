@@ -1,7 +1,7 @@
 import { swiper, swiperSlide, swiperLightBox } from 'vue-awesome-swiper'
 
 export default {
-  name: 'waitedListDetails',
+  name: 'grabbedOrderDetails',
   components: {
     swiper,
     swiperSlide,
@@ -24,7 +24,8 @@ export default {
       	,"../../static/img/waitedListDetails/goods1.jpg"
       	,"../../static/img/waitedListDetails/goods2.jpg"
       	,"../../static/img/waitedListDetails/goods3.jpg"
-      ]
+      ],
+      isBack: false
     }
   },
   created: function(){
@@ -40,6 +41,9 @@ export default {
   	},
   	hideBox: function(){
   		this.isShowLightBox = false;
+  	},
+  	showBackBox: function(){
+  		this.isBack = !this.isBack;
   	}
   }
 }

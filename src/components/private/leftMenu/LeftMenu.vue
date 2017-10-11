@@ -44,7 +44,7 @@
         </router-link>
       </li>
       <li class="leftMenuMarRgt" :class="{active: isActive == 2}" @click="isActive = 2">
-        <router-link to="/waitedLists">
+        <router-link to="/grabbedOrder">
           <i class="glyphicon glyphicon-check"></i>
           已抢订单
         </router-link>

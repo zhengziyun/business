@@ -1,13 +1,11 @@
 export default {
-  name: 'allWaitedLists',
+  name: 'grabbedOrder',
   data () {
     return {
       goodsNum: 0
     }
   },
   methods: {
-		grabOrder: function(){
-			
-		}
+		
 	}
 }

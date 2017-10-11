@@ -1,0 +1,84 @@
+.historicalValuation{
+	width: 100%;
+}
+.historicalValuation .title{
+	width: 100%;
+  height: 46px;
+  line-height: 46px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+  background: #E9E9E9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA),to(#E9E9E9));
+  background: linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+  padding-left: 15px;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+  margin: 20px 0 0 0;
+}
+
+
+.valuationList{
+	display: block;
+	width: 100%;
+	text-decoration: none !important;
+	color: #333;
+	border: 1px solid #D5D5D5;
+	margin-top:18px;
+	cursor: pointer;
+}
+.valuationList:hover{
+	color: #333;
+}
+.valuationList .valuationListNum{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px !important;
+	color: #333 !important; 
+	background: #d9edf7;
+  padding-left: 10px;
+}
+.valuationList .waitedListInfo{
+	position: relative;
+	width: 100%;
+	padding: 14px 10px;
+}
+.valuationList .orderTime{
+	width: 100%;
+	line-height: 14px;
+	font-size: 12px;
+}
+.valuationList .goodsInfo{
+	width: 100%;
+	height: 80px;
+	margin-top: 14px;
+}
+.valuationList .goodsInfo .pic>img{
+	width: 100%;
+	height: 100%;
+}
+.valuationList .goodsInfo .pic{
+	float: left;
+	width: 96px;
+	height: 80px;
+	margin-right: 20px;
+}
+.valuationList .goodsInfo .info{
+	float: left;
+	height: 80px;
+}
+.valuationList .goodsInfo .info>h3{
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 0 0;
+}
+.valuationList .goodsInfo .info>p{
+	font-size: 14px;
+	line-height: 25px;
+	color: #333;
+	margin: 0;
+}
